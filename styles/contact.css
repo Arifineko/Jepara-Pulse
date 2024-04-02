@@ -139,4 +139,5 @@ textarea::placeholder {
     font-weight: 500;
     color: white;
     border-radius: 12px;
+    cursor: pointer;
 }
