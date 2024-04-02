@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.container-signup {
+    display: grid;
+    align-items: center;
+    gap: 53px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-slogan {
+    background-image: url(assets/bg-alam.png);
+    width: 796px;
+    height: 1024px;
+    display: flex;
+    gap: 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.slogan {
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.link-web {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.container-title {
+    text-align: center;
+}
+
+.title {
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #52525B;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 25px 25px;
+    border-radius: 8px;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.input-name {
+    display: flex;
+    gap: 12px;
+}
+
+.input-name-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 6px;
+}
+
+.input-details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 496px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    font-size: 16px;
+}
+
+.container-input-checkbox {
+    display: flex;
+    gap: 9px;
+    font-size: 14px;
+}
+
+.checkbox {
+    width: 19px;
+    border-radius: 6px;
+}
+
+.container-button {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.btn-signup {
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2563EB;
+    color: white;
+    font-size: 16px;
+    width: 496px;
+}
+
+.container-button-google {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-google {
+    color: #1E293B;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.container-login p {
+    font-size: 14px;
+}
+
+.account {
+    color: #71717A;
+}
