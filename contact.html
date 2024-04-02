@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destinations</title>
-    <link rel="stylesheet" href="styles/destination.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,8 +20,8 @@
             <div>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="" class="active-link">Destinations</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="" class="active-link">Contact Us</a></li>
                     <li><a href="">About Us</a></li>
                 </ul>
             </div>
@@ -34,77 +34,33 @@
             </div>
         </nav>
     </header>
-    <main class="content-section">
-        <div class="container-title">
-            <div>
-                <p class="jepara-text">Jepara Pulse</p>
+    <main>
+        <div> 
+            <div class="container-title">
+                <p class="text-jepara">Jepara Pulse</p>
+                <p class="text-contact">Contact Us</p>
+                <p class="details-contact">You are encouraged to submit inquiries, complaints, suggestions, and critiques with us through this page.</p>
             </div>
-            <div>
-                <p class="content-title">Find Your Destination</p>
-            </div>
-            <div>
-                <p class="title-details">Click on the destination to get complete information about the place you want to visit.</p>
-            </div>
-        </div>
-        <div class="catagory-destinations">
-            <div>
-                <p class="catagory-title">Catagory Destinations</p>
-            </div>
-            <div class="button-catagory-container">
-                <button class="catagory-button">
-                    <a href="">Beach</a>
-                </button>
-                <button class="catagory-button">
-                    <a href="">Waterfall</a>
-                </button>
-                <button class="catagory-button">
-                    <a href="">Park</a>  
-                </button>
-                <button class="catagory-button">
-                   <a href="">Mountain</a> 
-                </button>
-                <button class="catagory-button">
-                    <a href="">Hill</a>
-                </button>
-            </div>
-            
-        </div>
-   
-        <div class="grid-destinations js-grid-destinations">
-
-        </div>
-        <div class="container-navigation">
-            <div class="previous-button-container">
-                <button class="previous-button">Previous</button>
-                <img src="assets/arrow-left.svg" alt="" class="logo-arrow-left">
-            </div>
-            <div class="container-numbers">
-                <div class="number-active">
-                    <a href="">1</a>
+            <div class="container-form">
+                <div class="container-input">
+                    <p class="label">Email</p>
+                    <input type="text" placeholder="you@gmail.com" class="contact-input">
                 </div>
-                <div class="number">
-                    <a href="">2</a>
+                <div class="container-input">
+                    <p class="label">Full Name</p>
+                    <input type="text" placeholder="Full Name" class="contact-input">
                 </div>
-                <div class="number">
-                    <a href="">3</a>
+                <div class="container-input">
+                    <p class="label">Subject</p>
+                    <input type="text" placeholder="Your Subject" class="contact-input">
                 </div>
-                <div class="number-more">
-                    <a href="">...</a>
+                <div class="container-input">
+                    <p class="label">Message</p>
+                    <textarea placeholder="Your Message"></textarea>
                 </div>
-                <div class="number">
-                    <a href="">8</a>
+                <div class="container-button">
+                    <button class="button-send-message">Send message</button>
                 </div>
-                <div class="number">
-                    <a href="">9</a>
-                </div>
-                <div class="number">
-                    <a href="">10</a>
-                </div>
-                
-            </div>
-            <div class="next-button-container">
-                <button class="next-button">Next</button>
-                <img src="assets/arrow-right.svg" alt="" class="logo-arrow-right">
             </div>
         </div>
     </main>
@@ -171,5 +127,4 @@
         </div>
     </footer>
 </body>
-<script type="module" src="scripts/destinations.js"></script>
 </html>
