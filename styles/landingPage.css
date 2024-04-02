@@ -13,13 +13,14 @@ ul {
 }
 
 ul li a {
-    color: white;
+    color: rgb(223, 221, 221);
     font-size: 14px;
     font-weight: 500;
 }
 
 .active-link {
     font-weight: 700;
+    color: white;
 }
 
 .button-nav {
