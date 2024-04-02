@@ -18,6 +18,10 @@ ul li a {
     font-weight: 500;
 }
 
+button {
+    cursor: pointer;
+}
+
 .active-link {
     font-weight: 700;
     color: white;

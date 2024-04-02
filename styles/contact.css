@@ -107,11 +107,6 @@ main {
     color: #667085;
 }
 
-::placeholder {
-    font-size: 24px;
-    color: #667085;
-    font-family: inter;
-}
 
 textarea {
     height: 290px;
@@ -121,6 +116,13 @@ textarea {
     border: 1.5px solid #D0D5DD;
     margin-bottom: 98px;
     padding: 18px 25px;
+
+}
+
+textarea::placeholder {
+    font-size: 24px;
+    color: #667085;
+    font-family: inter;
 }
 
 .container-button {
